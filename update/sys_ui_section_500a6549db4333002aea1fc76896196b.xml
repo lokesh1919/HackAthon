@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="DEPARTMENTS" section_id="500a6549db4333002aea1fc76896196b" sys_domain="global" table="x_386572_nodue_nofeedue" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hostel</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-02 04:28:03</sys_created_on>
+            <sys_id>e48de9c1db8333002aea1fc7689619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="DEPARTMENTS" display_value="DEPARTMENTS" name="x_386572_nodue_nofeedue" sys_domain="global" view="Default view">500a6549db4333002aea1fc76896196b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-02 04:28:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fed_office</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-02 04:28:03</sys_created_on>
+            <sys_id>6c8de9c1db8333002aea1fc7689619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="DEPARTMENTS" display_value="DEPARTMENTS" name="x_386572_nodue_nofeedue" sys_domain="global" view="Default view">500a6549db4333002aea1fc76896196b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-02 04:28:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hod</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-02 04:28:03</sys_created_on>
+            <sys_id>e08de9c1db8333002aea1fc7689619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="DEPARTMENTS" display_value="DEPARTMENTS" name="x_386572_nodue_nofeedue" sys_domain="global" view="Default view">500a6549db4333002aea1fc76896196b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-02 04:28:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>central_library</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-02 04:28:03</sys_created_on>
+            <sys_id>688de9c1db8333002aea1fc7689619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="DEPARTMENTS" display_value="DEPARTMENTS" name="x_386572_nodue_nofeedue" sys_domain="global" view="Default view">500a6549db4333002aea1fc76896196b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-02 04:28:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>computercenter</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-02 04:28:03</sys_created_on>
+            <sys_id>ec8de9c1db8333002aea1fc7689619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="DEPARTMENTS" display_value="DEPARTMENTS" name="x_386572_nodue_nofeedue" sys_domain="global" view="Default view">500a6549db4333002aea1fc76896196b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-02 04:28:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>irp</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-02 04:28:03</sys_created_on>
+            <sys_id>648de9c1db8333002aea1fc7689619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="DEPARTMENTS" display_value="DEPARTMENTS" name="x_386572_nodue_nofeedue" sys_domain="global" view="Default view">500a6549db4333002aea1fc76896196b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-02 04:28:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>alumni_registration</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-02 04:28:03</sys_created_on>
+            <sys_id>e88de9c1db8333002aea1fc7689619d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="DEPARTMENTS" display_value="DEPARTMENTS" name="x_386572_nodue_nofeedue" sys_domain="global" view="Default view">500a6549db4333002aea1fc76896196b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-02 04:28:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>physical_education</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-02 04:28:03</sys_created_on>
+            <sys_id>608de9c1db8333002aea1fc7689619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="DEPARTMENTS" display_value="DEPARTMENTS" name="x_386572_nodue_nofeedue" sys_domain="global" view="Default view">500a6549db4333002aea1fc76896196b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-02 04:28:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department_library</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-02 04:28:03</sys_created_on>
+            <sys_id>e48de9c1db8333002aea1fc7689619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="DEPARTMENTS" display_value="DEPARTMENTS" name="x_386572_nodue_nofeedue" sys_domain="global" view="Default view">500a6549db4333002aea1fc76896196b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-02 04:28:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>registar</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-02 04:28:03</sys_created_on>
+            <sys_id>6c8de9c1db8333002aea1fc7689619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="DEPARTMENTS" display_value="DEPARTMENTS" name="x_386572_nodue_nofeedue" sys_domain="global" view="Default view">500a6549db4333002aea1fc76896196b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-02 04:28:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>placement_incharge</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-02 04:28:03</sys_created_on>
+            <sys_id>e08de9c1db8333002aea1fc7689619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="DEPARTMENTS" display_value="DEPARTMENTS" name="x_386572_nodue_nofeedue" sys_domain="global" view="Default view">500a6549db4333002aea1fc76896196b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-02 04:28:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>DEPARTMENTS</caption>
+            <header>false</header>
+            <name>x_386572_nodue_nofeedue</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-02 04:12:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>500a6549db4333002aea1fc76896196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>DEPARTMENTS</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+            <sys_update_name>sys_ui_section_500a6549db4333002aea1fc76896196b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-02 04:12:45</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

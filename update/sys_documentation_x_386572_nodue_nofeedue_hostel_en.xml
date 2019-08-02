@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="hostel" label="HOSTEL" language="en" table="x_386572_nodue_nofeedue">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>hostel</element>
+            <help/>
+            <hint/>
+            <label>HOSTEL</label>
+            <language>en</language>
+            <name>x_386572_nodue_nofeedue</name>
+            <plural>HOSTELs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-02 04:12:45</sys_created_on>
+            <sys_id>2c0a6549db4333002aea1fc7689619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>HOSTEL</sys_name>
+            <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+            <sys_update_name>sys_documentation_x_386572_nodue_nofeedue_hostel_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-02 04:12:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

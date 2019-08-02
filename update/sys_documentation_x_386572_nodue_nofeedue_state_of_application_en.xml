@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="state_of_application" label="State of Application" language="en" table="x_386572_nodue_nofeedue">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>state_of_application</element>
+            <help/>
+            <hint/>
+            <label>State of Application</label>
+            <language>en</language>
+            <name>x_386572_nodue_nofeedue</name>
+            <plural>State of Applications</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-02 03:56:54</sys_created_on>
+            <sys_id>d4662505db4333002aea1fc768961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>State of Application</sys_name>
+            <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+            <sys_update_name>sys_documentation_x_386572_nodue_nofeedue_state_of_application_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-02 03:56:54</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
