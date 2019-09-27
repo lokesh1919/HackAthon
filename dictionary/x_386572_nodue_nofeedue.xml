@@ -21,14 +21,11 @@
         <element attributes="edge_encryption_enabled=true" default="PENDING" label="HOSTEL" max_length="40" name="hostel" read_only="true" type="string"/>
         <element label="ID Number" max_length="40" name="id_number" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="PENDING" label="IRP(PLACEMENT CELL)" max_length="40" name="irp" read_only="true" type="string"/>
-        <element label="Name of the Student" mandatory="true" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Name of the Applicant" max_length="40" name="name" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="PENDING" label="PHYSICAL EDUCATION" max_length="40" name="physical_education" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="PENDING" label="DEPARTMENT PLACEMENT INCHARGE" max_length="40" name="placement_incharge" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="PENDING" label="REGISTAR'S OFFICE/ACCOUNTS" max_length="40" name="registar" read_only="true" type="string"/>
         <element default="APPLIED" label="State of Application" max_length="40" name="state_of_application" read_only="true" type="string"/>
         <element default="2016-2020" label="Year of Study" max_length="40" name="year_of_study" read_only="true" type="string"/>
-        <index name="index">
-            <element name="name"/>
-        </index>
     </element>
 </database>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
@@ -8,27 +8,41 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>SectionHide</name>
+        <name>Auto Populate User Details</name>
         <order/>
         <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-   g_form.setSectionDisplay('departments',false);
+	
+ g_form.setValue('name',g_user.getFullName());
+	
+ var x=new GlideAjax('getUserDetails');
+ x.addParam('sysparm_name','example');
+ x.addParam('abc',g_user.getFullName());
+ x.getXML(calluser);
+ function calluser(response)
+ {
+	 var y=response.responseXML.documentElement.getAttribute('answer');
+	 if(y==null)
+		  alert("Hello");
+	 else
+		 alert(y);
+	 g_form.setValue('email',y);
+ }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-08-02 04:21:09</sys_created_on>
+        <sys_created_on>2019-09-07 10:24:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>7d8bed41db8333002aea1fc76896197f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>SectionHide</sys_name>
+        <sys_id>4077103c4f333300bac5f3117310c79d</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Auto Populate User Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
         <sys_policy/>
         <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
-        <sys_update_name>sys_script_client_7d8bed41db8333002aea1fc76896197f</sys_update_name>
+        <sys_update_name>sys_script_client_4077103c4f333300bac5f3117310c79d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-02 04:36:50</sys_updated_on>
+        <sys_updated_on>2019-09-24 04:08:58</sys_updated_on>
         <table>x_386572_nodue_nofeedue</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
