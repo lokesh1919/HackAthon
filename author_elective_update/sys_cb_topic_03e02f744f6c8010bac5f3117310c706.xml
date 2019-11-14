@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <connect_queue/>
+        <description/>
+        <graph>{
+  "graph_api_version": "1.0.10",
+  "goals": {
+    "eb8759cdaae0479e8082ab0f75822bd6": {
+      "id": "eb8759cdaae0479e8082ab0f75822bd6",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "472150b056604f738fe7750522f29921": {
+          "id": "472150b056604f738fe7750522f29921",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "8fe246e0ea2149f4b6b936eaadf07d79": {
+          "id": "8fe246e0ea2149f4b6b936eaadf07d79",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "da5d137492f34c72ba3f8a4040f3d316",
+          "edgeType": "Edge",
+          "source": "472150b056604f738fe7750522f29921",
+          "target": "8fe246e0ea2149f4b6b936eaadf07d79",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {}
+}</graph>
+        <key_phrases>Certificate Issue,No due</key_phrases>
+        <live_agent>false</live_agent>
+        <name>Certificate Issue</name>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-15 07:47:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>03e02f744f6c8010bac5f3117310c706</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certificate Issue</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_update_name>sys_cb_topic_03e02f744f6c8010bac5f3117310c706</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-15 07:47:59</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=03e02f744f6c8010bac5f3117310c706"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NoDue">5df4a101db4333002aea1fc768961924</application>
+        <file_path/>
+        <instance_id>cf167e4fdbb8d7c88264f70fbf9619b9</instance_id>
+        <instance_name>dev53182</instance_name>
+        <name>sys_cb_topic_03e02f744f6c8010bac5f3117310c706</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><connect_queue/><description/><graph>{
+  "graph_api_version": "1.0.10",
+  "goals": {
+    "eb8759cdaae0479e8082ab0f75822bd6": {
+      "id": "eb8759cdaae0479e8082ab0f75822bd6",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "472150b056604f738fe7750522f29921": {
+          "id": "472150b056604f738fe7750522f29921",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "8fe246e0ea2149f4b6b936eaadf07d79": {
+          "id": "8fe246e0ea2149f4b6b936eaadf07d79",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "da5d137492f34c72ba3f8a4040f3d316",
+          "edgeType": "Edge",
+          "source": "472150b056604f738fe7750522f29921",
+          "target": "8fe246e0ea2149f4b6b936eaadf07d79",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {}
+}</graph><key_phrases>Certificate Issue,No due</key_phrases><live_agent>false</live_agent><name>Certificate Issue</name><roles/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-10-15 07:47:59</sys_created_on><sys_domain>global</sys_domain><sys_id>03e02f744f6c8010bac5f3117310c706</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Certificate Issue</sys_name><sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package><sys_policy/><sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope><sys_update_name>sys_cb_topic_03e02f744f6c8010bac5f3117310c706</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-10-15 07:47:59</sys_updated_on><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=03e02f744f6c8010bac5f3117310c706"/></record_update>]]></payload>
+        <payload_hash>-1331120268</payload_hash>
+        <record_name>Certificate Issue</record_name>
+        <reverted_from/>
+        <source>73bdf8dc4ff77300bac5f3117310c76b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-15 07:48:00</sys_created_on>
+        <sys_id>4be02f744f6c8010bac5f3117310c72c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dce6359900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-15 07:48:00</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>83e02f747a6c80100b694722e038ed2c</update_guid>
+        <update_guid_history>83e02f747a6c80100b694722e038ed2c:-1331120268</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-15 07:48:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>1a2de455755846cc8b752fe3ea145090</sys_id>
+        <sys_metadata>03e02f744f6c8010bac5f3117310c706</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certificate Issue</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_scope_delete display_value="">0b77f8f2896c47da95a17955855babc9</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_03e02f744f6c8010bac5f3117310c706</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_03e02f744f6c8010bac5f3117310c706">4be02f744f6c8010bac5f3117310c72c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-15 07:48:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

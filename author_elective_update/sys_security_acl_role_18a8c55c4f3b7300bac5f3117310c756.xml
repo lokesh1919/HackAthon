@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 00:38:34</sys_created_on>
+        <sys_id>18a8c55c4f3b7300bac5f3117310c756</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_386572_nodue_studentdetails.x_386572_nodue.studentdetails_user</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_security_acl display_value="x_386572_nodue_studentdetails">5ca8c55c4f3b7300bac5f3117310c753</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_18a8c55c4f3b7300bac5f3117310c756</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 00:38:34</sys_updated_on>
+        <sys_user_role display_value="x_386572_nodue.studentdetails_user" name="x_386572_nodue.studentdetails_user">04a88d984f3b7300bac5f3117310c770</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NoDue">5df4a101db4333002aea1fc768961924</application>
+        <file_path/>
+        <instance_id>cf167e4fdbb8d7c88264f70fbf9619b9</instance_id>
+        <instance_name>dev53182</instance_name>
+        <name>sys_security_acl_role_18a8c55c4f3b7300bac5f3117310c756</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-06 00:38:34</sys_created_on><sys_id>18a8c55c4f3b7300bac5f3117310c756</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_386572_nodue_studentdetails.x_386572_nodue.studentdetails_user</sys_name><sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package><sys_policy/><sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope><sys_security_acl display_value="x_386572_nodue_studentdetails">5ca8c55c4f3b7300bac5f3117310c753</sys_security_acl><sys_update_name>sys_security_acl_role_18a8c55c4f3b7300bac5f3117310c756</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-06 00:38:34</sys_updated_on><sys_user_role display_value="x_386572_nodue.studentdetails_user" name="x_386572_nodue.studentdetails_user">04a88d984f3b7300bac5f3117310c770</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1937564888</payload_hash>
+        <record_name>x_386572_nodue_studentdetails.x_386572_nodue.studentdetails_user</record_name>
+        <reverted_from/>
+        <source>73bdf8dc4ff77300bac5f3117310c76b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 00:38:34</sys_created_on>
+        <sys_id>5ca8c55c4f3b7300bac5f3117310c758</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d04022bcb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 00:38:34</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>94a8c55c243b73009f8fe15dd9e92c58</update_guid>
+        <update_guid_history>94a8c55c243b73009f8fe15dd9e92c58:1937564888</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_386572_nodue_studentdetails.x_386572_nodue.studentdetails_user">d3a212634fe40010bac5f3117310c76f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-23 15:09:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>0084d85d58874912800ad0bf87dd3201</sys_id>
+        <sys_metadata>18a8c55c4f3b7300bac5f3117310c756</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_386572_nodue_studentdetails.x_386572_nodue.studentdetails_user</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_parent display_value="">5ca8c55c4f3b7300bac5f3117310c753</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_scope_delete display_value="">0b77f8f2896c47da95a17955855babc9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_18a8c55c4f3b7300bac5f3117310c756</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_18a8c55c4f3b7300bac5f3117310c756">5ca8c55c4f3b7300bac5f3117310c758</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 15:09:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

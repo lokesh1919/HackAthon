@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget">
+    <m2m_sp_ng_pro_sp_widget action="DELETE">
+        <sp_angular_provider display_value="spAttachmentManager">06e836f0d722120023c84f80de6103a1</sp_angular_provider>
+        <sp_widget display_value="form_ci">20c0defa4f600010bac5f3117310c7ec</sp_widget>
+        <sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-21 07:05:37</sys_created_on>
+        <sys_id>38c0defa4f600010bac5f3117310c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spAttachmentManager.form_ci</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_38c0defa4f600010bac5f3117310c7ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-21 07:05:37</sys_updated_on>
+    </m2m_sp_ng_pro_sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NoDue">5df4a101db4333002aea1fc768961924</application>
+        <file_path/>
+        <instance_id>cf167e4fdbb8d7c88264f70fbf9619b9</instance_id>
+        <instance_name>dev53182</instance_name>
+        <name>m2m_sp_ng_pro_sp_widget_38c0defa4f600010bac5f3117310c7ee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_ng_pro_sp_widget"><m2m_sp_ng_pro_sp_widget action="INSERT_OR_UPDATE"><sp_angular_provider display_value="spAttachmentManager">06e836f0d722120023c84f80de6103a1</sp_angular_provider><sp_widget display_value="form_ci">20c0defa4f600010bac5f3117310c7ec</sp_widget><sys_class_name>m2m_sp_ng_pro_sp_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-10-21 07:05:37</sys_created_on><sys_id>38c0defa4f600010bac5f3117310c7ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>spAttachmentManager.form_ci</sys_name><sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package><sys_policy/><sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope><sys_update_name>m2m_sp_ng_pro_sp_widget_38c0defa4f600010bac5f3117310c7ee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-10-21 07:05:37</sys_updated_on></m2m_sp_ng_pro_sp_widget></record_update>]]></payload>
+        <payload_hash>111147134</payload_hash>
+        <record_name>spAttachmentManager.form_ci</record_name>
+        <reverted_from/>
+        <source>73bdf8dc4ff77300bac5f3117310c76b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-21 07:05:37</sys_created_on>
+        <sys_id>f4c0defa4f600010bac5f3117310c7f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ded22b2e90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-21 07:05:37</sys_updated_on>
+        <type>Angular Providers</type>
+        <update_guid>30c0defacc60001028fda46cc071e6f0</update_guid>
+        <update_guid_history>30c0defacc60001028fda46cc071e6f0:111147134</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="spAttachmentManager.form_ci">e978ba0f4fac0010bac5f3117310c786</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-22 04:37:33</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_ng_pro_sp_widget">m2m_sp_ng_pro_sp_widget</sys_db_object>
+        <sys_id>29fbc2264e374cac8b63a6dffe592a10</sys_id>
+        <sys_metadata>38c0defa4f600010bac5f3117310c7ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spAttachmentManager.form_ci</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_scope_delete display_value="">0b77f8f2896c47da95a17955855babc9</sys_scope_delete>
+        <sys_update_name>m2m_sp_ng_pro_sp_widget_38c0defa4f600010bac5f3117310c7ee</sys_update_name>
+        <sys_update_version display_value="m2m_sp_ng_pro_sp_widget_38c0defa4f600010bac5f3117310c7ee">f4c0defa4f600010bac5f3117310c7f0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-22 04:37:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -13,19 +13,64 @@
         <script><![CDATA[function onLoad() {
 	
  g_form.setValue('name',g_user.getFullName());
-	
- var x=new GlideAjax('getUserDetails');
- x.addParam('sysparm_name','example');
- x.addParam('abc',g_user.getFullName());
- x.getXML(calluser);
- function calluser(response)
+ var obj1=new GlideAjax('getUserDetails');
+ obj1.addParam('sysparm_name','returnemail');
+ obj1.addParam('abc',g_user.getFullName());
+ obj1.getXML(calluser1);
+ function calluser1(response)
  {
-	 var y=response.responseXML.documentElement.getAttribute('answer');
-	 if(y==null)
-		  alert("Hello");
+	 var val=response.responseXML.documentElement.getAttribute('answer');
+	 g_form.setValue('email',val);
+ }
+	
+ var obj2=new GlideAjax('getUserDetails');
+ obj2.addParam('sysparm_name','returnid');
+ obj2.addParam('abc',g_user.getFullName());
+ obj2.getXML(calluser2);
+ function calluser2(response)
+ {
+	 var val=response.responseXML.documentElement.getAttribute('answer');
+	 g_form.setValue('id_number',val);
+	 var index=4;
+	 if(val.charAt(index)=='1')
+		 {
+			 g_form.clearOptions('department');
+			 g_form.setValue('department','CSE');
+			 g_form.setReadOnly('department',true);
+		 }
+	 else if(val.charAt(index)=='2')
+		 {
+			 g_form.clearOptions('department');
+			 g_form.setValue('department','CIVIL');
+			 g_form.setReadOnly('department',true); 
+		 }
+	 else if(val.charAt(index)=='3')
+		 {
+			 g_form.clearOptions('department');
+			 g_form.setValue('department',"CSE");
+			 g_form.setReadOnly('department',true); 
+		 }
+	 else if(val.charAt(index)=='4')
+		 {
+			 g_form.clearOptions('department');
+			 g_form.setValue('department','ECE');
+			 g_form.setReadOnly('department',true); 
+		 }
+	 else if(val.charAt(index)=='5')
+		 {
+			 g_form.clearOptions('department');
+			 g_form.setValue('department','BT');
+			 g_form.setReadOnly('department',true); 
+		 }
+	 else if(val.charAt(index)=='6')
+		 {
+			 g_form.clearOptions('department');
+			 g_form.setValue('department','MECH');
+			 g_form.setReadOnly('department',true); 
+		 }
 	 else
-		 alert(y);
-	 g_form.setValue('email',y);
+		 g_form.addErrorMessage("Enter valid Id Number");
+		
  }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -34,18 +79,18 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4077103c4f333300bac5f3117310c79d</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>Auto Populate User Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
         <sys_policy/>
         <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
         <sys_update_name>sys_script_client_4077103c4f333300bac5f3117310c79d</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-24 04:08:58</sys_updated_on>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-11-05 10:18:39</sys_updated_on>
         <table>x_386572_nodue_nofeedue</table>
         <type>onLoad</type>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <view/>
     </sys_script_client>
 </record_update>

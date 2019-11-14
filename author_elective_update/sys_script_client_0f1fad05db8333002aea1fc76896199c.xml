@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Redirect to Home Page</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   //var URL="https://dev59753.service-now.com/raptos";
+	//top.window.location=URL;
+	g_navigation.open("https://dev53182.service-now.com/ci","_blank");
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-02 04:36:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0f1fad05db8333002aea1fc76896199c</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Redirect to Home Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_update_name>sys_script_client_0f1fad05db8333002aea1fc76896199c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-22 06:20:38</sys_updated_on>
+        <table>user_registration_request</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NoDue">5df4a101db4333002aea1fc768961924</application>
+        <file_path/>
+        <instance_id>cf167e4fdbb8d7c88264f70fbf9619b9</instance_id>
+        <instance_name>dev53182</instance_name>
+        <name>sys_script_client_0f1fad05db8333002aea1fc76896199c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;sys_created_on&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Redirect to Home Page&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   //var URL="https://dev59753.service-now.com/raptos";
+	//top.window.location=URL;
+	g_navigation.open("https://dev53182.service-now.com/ci","_blank");
+	
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-08-02 04:36:29&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0f1fad05db8333002aea1fc76896199c&lt;/sys_id&gt;&lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;&lt;sys_name&gt;Redirect to Home Page&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NoDue" source="x_386572_nodue"&gt;5df4a101db4333002aea1fc768961924&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NoDue"&gt;5df4a101db4333002aea1fc768961924&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_0f1fad05db8333002aea1fc76896199c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-22 06:20:38&lt;/sys_updated_on&gt;&lt;table&gt;user_registration_request&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1087395356</payload_hash>
+        <record_name>Redirect to Home Page</record_name>
+        <reverted_from/>
+        <source>73bdf8dc4ff77300bac5f3117310c76b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-22 06:20:38</sys_created_on>
+        <sys_id>7f00dfcf4fec0010bac5f3117310c7f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16df21fe2c30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-22 06:20:38</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>f700dfcfcaec0010edc7ab5977757ef4</update_guid>
+        <update_guid_history>f700dfcfcaec0010edc7ab5977757ef4:-1087395356,765d34100a3b7300c437fbeb5fbbeb48:-1941824626</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-23 05:13:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>6204314c21ca4bce94edb2a4243831d9</sys_id>
+        <sys_metadata>0f1fad05db8333002aea1fc76896199c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Redirect to Home Page</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_parent display_value="User Registration Request">c95f12674f023300bac5f3117310c76d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_scope_delete display_value="">0b77f8f2896c47da95a17955855babc9</sys_scope_delete>
+        <sys_update_name>sys_script_client_0f1fad05db8333002aea1fc76896199c</sys_update_name>
+        <sys_update_version display_value="sys_script_client_0f1fad05db8333002aea1fc76896199c">7f00dfcf4fec0010bac5f3117310c7f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 05:13:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

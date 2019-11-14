@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>StudentDetails</name>
+        <order>100</order>
+        <roles>x_386572_nodue.studentdetails_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 00:38:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d8a8c55c4f3b7300bac5f3117310c71e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StudentDetails</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_update_name>sys_app_application_d8a8c55c4f3b7300bac5f3117310c71e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 00:38:33</sys_updated_on>
+        <title>StudentDetails</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NoDue">5df4a101db4333002aea1fc768961924</application>
+        <file_path/>
+        <instance_id>cf167e4fdbb8d7c88264f70fbf9619b9</instance_id>
+        <instance_name>dev53182</instance_name>
+        <name>sys_app_application_d8a8c55c4f3b7300bac5f3117310c71e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>StudentDetails</name><order>100</order><roles>x_386572_nodue.studentdetails_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-06 00:38:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d8a8c55c4f3b7300bac5f3117310c71e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>StudentDetails</sys_name><sys_overrides/><sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package><sys_policy/><sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope><sys_update_name>sys_app_application_d8a8c55c4f3b7300bac5f3117310c71e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-06 00:38:33</sys_updated_on><title>StudentDetails</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1395049662</payload_hash>
+        <record_name>StudentDetails</record_name>
+        <reverted_from/>
+        <source>73bdf8dc4ff77300bac5f3117310c76b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 00:38:33</sys_created_on>
+        <sys_id>9ca8c55c4f3b7300bac5f3117310c720</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d040229210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 00:38:33</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>d4a8c55ce83b7300ca9d81db0826c020</update_guid>
+        <update_guid_history>d4a8c55ce83b7300ca9d81db0826c020:1395049662</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="StudentDetails">2382a3884fb04010bac5f3117310c760</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>160031518</sys_created_by>
+        <sys_created_on>2019-10-25 10:15:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>32899d53124d4b329858f5fe67399984</sys_id>
+        <sys_metadata>d8a8c55c4f3b7300bac5f3117310c71e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StudentDetails</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_scope_delete display_value="">0b77f8f2896c47da95a17955855babc9</sys_scope_delete>
+        <sys_update_name>sys_app_application_d8a8c55c4f3b7300bac5f3117310c71e</sys_update_name>
+        <sys_update_version display_value="sys_app_application_d8a8c55c4f3b7300bac5f3117310c71e">9ca8c55c4f3b7300bac5f3117310c720</sys_update_version>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-10-25 10:15:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="DELETE">
+        <active>true</active>
+        <color>default</color>
+        <condition> gs.getUser().hasRole('approver_user');</condition>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph>power-off</glyph>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Logout</label>
+        <order>100</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page/>
+        <sp_rectangle_menu display_value="Header_ci">d9ce85f34f200010bac5f3117310c780</sp_rectangle_menu>
+        <sp_rectangle_menu_item/>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>160031518</sys_created_by>
+        <sys_created_on>2019-10-26 06:20:19</sys_created_on>
+        <sys_id>bf2673904f300010bac5f3117310c70d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Logout</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_bf2673904f300010bac5f3117310c70d</sys_update_name>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-10-26 06:34:27</sys_updated_on>
+        <table/>
+        <type>url</type>
+        <url>https://dev53182.service-now.com/ci/logout.do</url>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=bf2673904f300010bac5f3117310c70d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NoDue">5df4a101db4333002aea1fc768961924</application>
+        <file_path/>
+        <instance_id>cf167e4fdbb8d7c88264f70fbf9619b9</instance_id>
+        <instance_name>dev53182</instance_name>
+        <name>sp_rectangle_menu_item_bf2673904f300010bac5f3117310c70d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item"><sp_rectangle_menu_item action="INSERT_OR_UPDATE"><active>true</active><color>default</color><condition> gs.getUser().hasRole('approver_user');</condition><display_1/><display_2/><display_date/><filter/><glyph>power-off</glyph><hint/><kb_article/><kb_category/><kb_topic/><label>Logout</label><order>100</order><record_script/><sc_cat_item/><sc_category/><short_description/><sp_page/><sp_rectangle_menu display_value="Header_ci">d9ce85f34f200010bac5f3117310c780</sp_rectangle_menu><sp_rectangle_menu_item/><sys_class_name>sp_rectangle_menu_item</sys_class_name><sys_created_by>160031518</sys_created_by><sys_created_on>2019-10-26 06:20:19</sys_created_on><sys_id>bf2673904f300010bac5f3117310c70d</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Logout</sys_name><sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package><sys_policy/><sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope><sys_update_name>sp_rectangle_menu_item_bf2673904f300010bac5f3117310c70d</sys_update_name><sys_updated_by>160031518</sys_updated_by><sys_updated_on>2019-10-26 06:34:27</sys_updated_on><table/><type>url</type><url>https://dev53182.service-now.com/ci/logout.do</url><url_target/></sp_rectangle_menu_item><sys_translated_text action="delete_multiple" query="documentkey=bf2673904f300010bac5f3117310c70d"/></record_update>]]></payload>
+        <payload_hash>-766987824</payload_hash>
+        <record_name>Logout</record_name>
+        <reverted_from/>
+        <source>73bdf8dc4ff77300bac5f3117310c76b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>160031518</sys_created_by>
+        <sys_created_on>2019-10-26 06:34:27</sys_created_on>
+        <sys_id>01997bd44f300010bac5f3117310c796</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e06c5f6160000001</sys_recorded_at>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-10-26 06:34:27</sys_updated_on>
+        <type>Menu Item</type>
+        <update_guid>49997bd44d30001086b87a73b9c6bb95</update_guid>
+        <update_guid_history>49997bd44d30001086b87a73b9c6bb95:-766987824,7098b7949f300010a7183175f0f9a83f:-1969134222,0428b7948f300010724e10644be5d49e:-2131261255,5fb7b714b13000102cd29be761f6e3eb:-1969134222,8a56bb503c300010042a65618e975da9:-1929740462</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Logout">765a52924f300010bac5f3117310c779</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>160031518</sys_created_by>
+        <sys_created_on>2019-11-01 04:46:16</sys_created_on>
+        <sys_db_object display_value="" name="sp_rectangle_menu_item">sp_rectangle_menu_item</sys_db_object>
+        <sys_id>3b6ee82f1116412084f930e076496400</sys_id>
+        <sys_metadata>bf2673904f300010bac5f3117310c70d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Logout</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_scope_delete display_value="">0b77f8f2896c47da95a17955855babc9</sys_scope_delete>
+        <sys_update_name>sp_rectangle_menu_item_bf2673904f300010bac5f3117310c70d</sys_update_name>
+        <sys_update_version display_value="sp_rectangle_menu_item_bf2673904f300010bac5f3117310c70d">01997bd44f300010bac5f3117310c796</sys_update_version>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-11-01 04:46:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

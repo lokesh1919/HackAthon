@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">c57081944f3b7300bac5f3117310c7fb</sp_column>
+        <sp_widget display_value="Approvals">f37aa302cb70020000f8d856634c9cfc</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 00:02:50</sys_created_on>
+        <sys_id>8970c1944f3b7300bac5f3117310c726</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_update_name>sp_instance_8970c1944f3b7300bac5f3117310c726</sys_update_name>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-10-25 10:33:20</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=8970c1944f3b7300bac5f3117310c726"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NoDue">5df4a101db4333002aea1fc768961924</application>
+        <file_path/>
+        <instance_id>cf167e4fdbb8d7c88264f70fbf9619b9</instance_id>
+        <instance_name>dev53182</instance_name>
+        <name>sp_instance_8970c1944f3b7300bac5f3117310c726</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">c57081944f3b7300bac5f3117310c7fb</sp_column><sp_widget display_value="Approvals">f37aa302cb70020000f8d856634c9cfc</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-06 00:02:50</sys_created_on><sys_id>8970c1944f3b7300bac5f3117310c726</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package><sys_policy/><sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope><sys_update_name>sp_instance_8970c1944f3b7300bac5f3117310c726</sys_update_name><sys_updated_by>160031518</sys_updated_by><sys_updated_on>2019-10-25 10:33:20</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=8970c1944f3b7300bac5f3117310c726"/></record_update>]]></payload>
+        <payload_hash>-1189430373</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>73bdf8dc4ff77300bac5f3117310c76b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>160031518</sys_created_by>
+        <sys_created_on>2019-10-25 10:33:21</sys_created_on>
+        <sys_id>e2a6e38c4fb04010bac5f3117310c7d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e027a516c0000001</sys_recorded_at>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-10-25 10:33:21</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>2ea6e38ce5b040101dfe38e5bca40fd4</update_guid>
+        <update_guid_history>2ea6e38ce5b040101dfe38e5bca40fd4:-1189430373,f4415e3eba600010c1eeecb87dc56047:1844728796,61d13268a6ec401023fb6bdf8d475fd6:583920669,c970c1941e3b730058b4e118f1fa2327:1844728796</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">cfa6278c4fb04010bac5f3117310c700</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>160031518</sys_created_by>
+        <sys_created_on>2019-10-25 10:33:23</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>05ffa44ba774412fa3c2fc2e5003aaf1</sys_id>
+        <sys_metadata>8970c1944f3b7300bac5f3117310c726</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_scope_delete display_value="">0b77f8f2896c47da95a17955855babc9</sys_scope_delete>
+        <sys_update_name>sp_instance_8970c1944f3b7300bac5f3117310c726</sys_update_name>
+        <sys_update_version display_value="sp_instance_8970c1944f3b7300bac5f3117310c726">e2a6e38c4fb04010bac5f3117310c7d5</sys_update_version>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-10-25 10:33:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

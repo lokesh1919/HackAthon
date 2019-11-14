@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <connect_queue/>
+        <description/>
+        <graph>{
+  "graph_api_version": "1.0.10",
+  "goals": {
+    "8f991422870d4d5ebeb3181ad6635f3b": {
+      "id": "8f991422870d4d5ebeb3181ad6635f3b",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "695e3ff2ad2f4600a499b33154a6e050": {
+          "id": "695e3ff2ad2f4600a499b33154a6e050",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "ff75580edf8240f7a4e85c8b31901b2d": {
+          "id": "ff75580edf8240f7a4e85c8b31901b2d",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "6c03fef523a04afa8527e63199fcd8ee": {
+          "stepType": "ChoicePrompt",
+          "name": "search",
+          "prompt": {
+            "value": "How would you like to find",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "b5027a848b88415599e526bc9f5c5287",
+          "id": "6c03fef523a04afa8527e63199fcd8ee"
+        },
+        "ee2d6cf6859449939d0e9ee37b3cb980": {
+          "id": "ee2d6cf6859449939d0e9ee37b3cb980",
+          "stepType": "Decision",
+          "name": "Decision"
+        }
+      },
+      "edges": [
+        {
+          "id": "07349143fd4e4e69a269a241da210d83",
+          "edgeType": "Edge",
+          "source": "695e3ff2ad2f4600a499b33154a6e050",
+          "target": "6c03fef523a04afa8527e63199fcd8ee",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "3a075ab4c4f340e098d29582595c0e04",
+          "edgeType": "Edge",
+          "source": "6c03fef523a04afa8527e63199fcd8ee",
+          "target": "ee2d6cf6859449939d0e9ee37b3cb980",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ce0f84a5ca404a8d947ecedcc9d05cef",
+          "edgeType": "Branch",
+          "source": "ee2d6cf6859449939d0e9ee37b3cb980",
+          "target": "ff75580edf8240f7a4e85c8b31901b2d",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "",
+            "mode": "query"
+          },
+          "label": "Always"
+        }
+      ]
+    }
+  },
+  "variables": {
+    "b5027a848b88415599e526bc9f5c5287": {
+      "id": "b5027a848b88415599e526bc9f5c5287",
+      "name": "search",
+      "label": "Search",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Search by your Name",
+          "value": "0"
+        },
+        {
+          "label": "Serach by your Number",
+          "value": "1"
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Example</key_phrases>
+        <live_agent>false</live_agent>
+        <name>Example</name>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-14 10:29:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>553c76644f208010bac5f3117310c7aa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Example</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_update_name>sys_cb_topic_553c76644f208010bac5f3117310c7aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-14 10:30:26</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=553c76644f208010bac5f3117310c7aa"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NoDue">5df4a101db4333002aea1fc768961924</application>
+        <file_path/>
+        <instance_id>cf167e4fdbb8d7c88264f70fbf9619b9</instance_id>
+        <instance_name>dev53182</instance_name>
+        <name>sys_cb_topic_553c76644f208010bac5f3117310c7aa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><connect_queue/><description/><graph>{
+  "graph_api_version": "1.0.10",
+  "goals": {
+    "8f991422870d4d5ebeb3181ad6635f3b": {
+      "id": "8f991422870d4d5ebeb3181ad6635f3b",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "695e3ff2ad2f4600a499b33154a6e050": {
+          "id": "695e3ff2ad2f4600a499b33154a6e050",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "ff75580edf8240f7a4e85c8b31901b2d": {
+          "id": "ff75580edf8240f7a4e85c8b31901b2d",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "6c03fef523a04afa8527e63199fcd8ee": {
+          "stepType": "ChoicePrompt",
+          "name": "search",
+          "prompt": {
+            "value": "How would you like to find",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "b5027a848b88415599e526bc9f5c5287",
+          "id": "6c03fef523a04afa8527e63199fcd8ee"
+        },
+        "ee2d6cf6859449939d0e9ee37b3cb980": {
+          "id": "ee2d6cf6859449939d0e9ee37b3cb980",
+          "stepType": "Decision",
+          "name": "Decision"
+        }
+      },
+      "edges": [
+        {
+          "id": "07349143fd4e4e69a269a241da210d83",
+          "edgeType": "Edge",
+          "source": "695e3ff2ad2f4600a499b33154a6e050",
+          "target": "6c03fef523a04afa8527e63199fcd8ee",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "3a075ab4c4f340e098d29582595c0e04",
+          "edgeType": "Edge",
+          "source": "6c03fef523a04afa8527e63199fcd8ee",
+          "target": "ee2d6cf6859449939d0e9ee37b3cb980",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ce0f84a5ca404a8d947ecedcc9d05cef",
+          "edgeType": "Branch",
+          "source": "ee2d6cf6859449939d0e9ee37b3cb980",
+          "target": "ff75580edf8240f7a4e85c8b31901b2d",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "",
+            "mode": "query"
+          },
+          "label": "Always"
+        }
+      ]
+    }
+  },
+  "variables": {
+    "b5027a848b88415599e526bc9f5c5287": {
+      "id": "b5027a848b88415599e526bc9f5c5287",
+      "name": "search",
+      "label": "Search",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Search by your Name",
+          "value": "0"
+        },
+        {
+          "label": "Serach by your Number",
+          "value": "1"
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph><key_phrases>Example</key_phrases><live_agent>false</live_agent><name>Example</name><roles/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-10-14 10:29:06</sys_created_on><sys_domain>global</sys_domain><sys_id>553c76644f208010bac5f3117310c7aa</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Example</sys_name><sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package><sys_policy/><sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope><sys_update_name>sys_cb_topic_553c76644f208010bac5f3117310c7aa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-10-14 10:30:26</sys_updated_on><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=553c76644f208010bac5f3117310c7aa"/></record_update>]]></payload>
+        <payload_hash>-1836725952</payload_hash>
+        <record_name>Example</record_name>
+        <reverted_from/>
+        <source>73bdf8dc4ff77300bac5f3117310c76b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-14 10:30:26</sys_created_on>
+        <sys_id>f08cbeec4fec4010bac5f3117310c7ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16dc9d1b4170000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-14 10:30:26</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>7c8cbeec9aec40105cd083b32bf6d6ab</update_guid>
+        <update_guid_history>7c8cbeec9aec40105cd083b32bf6d6ab:-1836725952,f15cbeac11ec40106b3dadd04136d127:-729802602,613c7664fa208010d90b59a692d38ef3:-729484215</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-14 10:31:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>82c4d60cdaab43c0bd087e3255ce1690</sys_id>
+        <sys_metadata>553c76644f208010bac5f3117310c7aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Example</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_scope_delete display_value="">0b77f8f2896c47da95a17955855babc9</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_553c76644f208010bac5f3117310c7aa</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_553c76644f208010bac5f3117310c7aa">f08cbeec4fec4010bac5f3117310c7ac</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-14 10:31:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

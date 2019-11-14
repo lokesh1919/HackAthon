@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability/>
+        <cb_topic_id display_value="Certificate Issue">b951ef344f6c8010bac5f3117310c780</cb_topic_id>
+        <definition>{"id":"b951ef344f6c8010bac5f3117310c780","name":"Certificate Issue","vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Certificate Issue","category":"","key_phrases":["Certificate Issue","No Due"],"variables":[{"name":"__segment_trigger_2173b13d91074366bcbdb61bff69b81c_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Boolean","name":"RootDecisionBranch_7c612f746e6c8010c7c5ea608cc6707c","unique":false,"default_value":"true","key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Decision_RootDecision_f8612f74496c8010b2780d2ed91ceb7c","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_TerminateGoal_a0970b22cffb46faaa796b5a94df754a","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_906cd0b340a64944ab9cec3d4aae5aa6","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"String","name":"__silent_Branch_RootDecisionBranch_3c612f74ec6c801008225349d1ed557c","unique":false,"key_phrases":[],"static_enum_list":[]},{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"static_enum_list":[]}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_2173b13d91074366bcbdb61bff69b81c_done==false","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_7c612f746e6c8010c7c5ea608cc6707c\");vaInputs.initialize(\"__silent_TerminateGoal_a0970b22cffb46faaa796b5a94df754a\");vaInputs.initialize(\"__silent_StartGoal_906cd0b340a64944ab9cec3d4aae5aa6\");vaInputs.initialize(\"__silent_Decision_RootDecision_f8612f74496c8010b2780d2ed91ceb7c\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_3c612f74ec6c801008225349d1ed557c\");null;","fields":[{"name":"__silent_Decision_RootDecision_f8612f74496c8010b2780d2ed91ceb7c","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_f8612f74496c8010b2780d2ed91ceb7c\";vaInputs.__silent_Decision_RootDecision_f8612f74496c8010b2780d2ed91ceb7c=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_f8612f74496c8010b2780d2ed91ceb7c\";vaInputs.RootDecisionBranch_7c612f746e6c8010c7c5ea608cc6707c=true;null;"},{"name":"__silent_Branch_RootDecisionBranch_3c612f74ec6c801008225349d1ed557c","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_f8612f74496c8010b2780d2ed91ceb7c\" &amp;&amp; ((vaInputs.RootDecisionBranch_7c612f746e6c8010c7c5ea608cc6707c.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_3c612f74ec6c801008225349d1ed557c___RootDecisionBranch_3c612f74ec6c801008225349d1ed557c\";vaInputs.__silent_Branch_RootDecisionBranch_3c612f74ec6c801008225349d1ed557c=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_3c612f74ec6c801008225349d1ed557c___RootDecisionBranch_3c612f74ec6c801008225349d1ed557c\";null;"},{"name":"__silent_StartGoal_906cd0b340a64944ab9cec3d4aae5aa6","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_3c612f74ec6c801008225349d1ed557c___RootDecisionBranch_3c612f74ec6c801008225349d1ed557c\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___906cd0b340a64944ab9cec3d4aae5aa6\";vaInputs.__silent_StartGoal_906cd0b340a64944ab9cec3d4aae5aa6=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"acknowledge_msg":"vaVars.previous_graph_node=\"Start___906cd0b340a64944ab9cec3d4aae5aa6\";null;"},{"name":"__silent_TerminateGoal_a0970b22cffb46faaa796b5a94df754a","applicable":"vaVars.previous_graph_node==\"Start___906cd0b340a64944ab9cec3d4aae5aa6\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___a0970b22cffb46faaa796b5a94df754a\";vaInputs.__silent_TerminateGoal_a0970b22cffb46faaa796b5a94df754a=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"acknowledge_msg":"vaVars.previous_graph_node=\"End___a0970b22cffb46faaa796b5a94df754a\";vaVars.__segment_trigger_2173b13d91074366bcbdb61bff69b81c_done=true;null;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"score":0.0,"sys_scope":"5df4a101db4333002aea1fc768961924","title":"Certificate Issue"}</definition>
+        <design_category/>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Certificate Issue No Due</key_phrases>
+        <metaphone>AS T SRTF</metaphone>
+        <name>Certificate Issue</name>
+        <nlu_intent/>
+        <nlu_model/>
+        <nlu_provider/>
+        <published>true</published>
+        <roles/>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-15 07:50:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c5612f744f6c8010bac5f3117310c77d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Certificate Issue</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_update_name>sys_cs_topic_c5612f744f6c8010bac5f3117310c77d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-15 07:50:03</sys_updated_on>
+        <title>Certificate Issue</title>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=c5612f744f6c8010bac5f3117310c77d"/>
+</record_update>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="StudentDetails" max_length="40" name="x_386572_nodue_studentdetails" type="collection">
-        <element label="Email Id" max_length="40" name="email_id" type="string"/>
-        <element label="Full Name" max_length="40" name="full_name" type="string"/>
-        <element label="Id Number" max_length="40" name="id_number" type="string"/>
-        <element label="Mobile Number" max_length="10" name="mobile_number" type="string"/>
-    </element>
-</database>

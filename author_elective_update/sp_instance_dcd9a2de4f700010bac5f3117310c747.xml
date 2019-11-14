@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6546a61e4f700010bac5f3117310c7ce</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>160031518</sys_created_by>
+        <sys_created_on>2019-11-01 05:53:49</sys_created_on>
+        <sys_id>dcd9a2de4f700010bac5f3117310c747</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_update_name>sp_instance_dcd9a2de4f700010bac5f3117310c747</sys_update_name>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-11-01 06:05:22</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<p><span color=\"blue\" data-mce-style=\"color: blue;\" style=\"color: blue;\">sorry,the page you requested can't be found</span></p>",
+		"displayValue": "<p><span style=\"color: blue;\">sorry,the page you requested can't be found</span></p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=dcd9a2de4f700010bac5f3117310c747"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NoDue">5df4a101db4333002aea1fc768961924</application>
+        <file_path/>
+        <instance_id>cf167e4fdbb8d7c88264f70fbf9619b9</instance_id>
+        <instance_name>dev53182</instance_name>
+        <name>sp_instance_dcd9a2de4f700010bac5f3117310c747</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;6546a61e4f700010bac5f3117310c7ce&lt;/sp_column&gt;&lt;sp_widget display_value="HTML"&gt;8679ef89cb21120000f8d856634c9c4f&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;160031518&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-11-01 05:53:49&lt;/sys_created_on&gt;&lt;sys_id&gt;dcd9a2de4f700010bac5f3117310c747&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="NoDue" source="x_386572_nodue"&gt;5df4a101db4333002aea1fc768961924&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NoDue"&gt;5df4a101db4333002aea1fc768961924&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_dcd9a2de4f700010bac5f3117310c747&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;160031518&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-11-01 06:05:22&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"html": {
+		"value": "&lt;p&gt;&lt;span color=\"blue\" data-mce-style=\"color: blue;\" style=\"color: blue;\"&gt;sorry,the page you requested can't be found&lt;/span&gt;&lt;/p&gt;",
+		"displayValue": "&lt;p&gt;&lt;span style=\"color: blue;\"&gt;sorry,the page you requested can't be found&lt;/span&gt;&lt;/p&gt;"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=dcd9a2de4f700010bac5f3117310c747"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1461447443</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>73bdf8dc4ff77300bac5f3117310c76b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>160031518</sys_created_by>
+        <sys_created_on>2019-11-01 06:05:22</sys_created_on>
+        <sys_id>2d7c22124fb00010bac5f3117310c7cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e25917f1a0000001</sys_recorded_at>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-11-01 06:05:22</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>657c221204b00010fe43fc5fe5acc8cb</update_guid>
+        <update_guid_history>657c221204b00010fe43fc5fe5acc8cb:1461447443,8cfb6e12d1b0001054d5fd6f15de2d7d:589418230,c19b665e907000103e27ca3bca0498cc:856803286,90d9a2de3f700010184936c78eb10349:1143059046</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">81cc6a124fb00010bac5f3117310c7b0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>160031518</sys_created_by>
+        <sys_created_on>2019-11-01 06:06:43</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>062c1db31d1f416c8c2a26bfe3fbdbb9</sys_id>
+        <sys_metadata>dcd9a2de4f700010bac5f3117310c747</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_scope_delete display_value="">0b77f8f2896c47da95a17955855babc9</sys_scope_delete>
+        <sys_update_name>sp_instance_dcd9a2de4f700010bac5f3117310c747</sys_update_name>
+        <sys_update_version display_value="sp_instance_dcd9a2de4f700010bac5f3117310c747">2d7c22124fb00010bac5f3117310c7cb</sys_update_version>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-11-01 06:06:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

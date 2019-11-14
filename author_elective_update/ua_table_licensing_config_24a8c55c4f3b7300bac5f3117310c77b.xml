@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_386572_nodue_studentdetails</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 00:38:34</sys_created_on>
+        <sys_id>24a8c55c4f3b7300bac5f3117310c77b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_386572_nodue_studentdetails</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_update_name>ua_table_licensing_config_24a8c55c4f3b7300bac5f3117310c77b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 00:38:34</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NoDue">5df4a101db4333002aea1fc768961924</application>
+        <file_path/>
+        <instance_id>cf167e4fdbb8d7c88264f70fbf9619b9</instance_id>
+        <instance_name>dev53182</instance_name>
+        <name>ua_table_licensing_config_24a8c55c4f3b7300bac5f3117310c77b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_386572_nodue_studentdetails</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-06 00:38:34</sys_created_on><sys_id>24a8c55c4f3b7300bac5f3117310c77b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_386572_nodue_studentdetails</sys_name><sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package><sys_policy/><sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope><sys_update_name>ua_table_licensing_config_24a8c55c4f3b7300bac5f3117310c77b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-06 00:38:34</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>509644645</payload_hash>
+        <record_name>x_386572_nodue_studentdetails</record_name>
+        <reverted_from/>
+        <source>73bdf8dc4ff77300bac5f3117310c76b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-06 00:38:34</sys_created_on>
+        <sys_id>6ca8c55c4f3b7300bac5f3117310c77c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d04022e7f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-06 00:38:34</sys_updated_on>
+        <type>Table Subscription Configuration</type>
+        <update_guid>a4a8c55c423b73007b92c02e6483077c</update_guid>
+        <update_guid_history>a4a8c55c423b73007b92c02e6483077c:509644645</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_386572_nodue_studentdetails">a3a212634fe40010bac5f3117310c7ef</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-23 15:09:27</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>9a717ed6d0414ae6a6a30d9491902ff9</sys_id>
+        <sys_metadata>24a8c55c4f3b7300bac5f3117310c77b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_386572_nodue_studentdetails</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_scope_delete display_value="">0b77f8f2896c47da95a17955855babc9</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_24a8c55c4f3b7300bac5f3117310c77b</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_24a8c55c4f3b7300bac5f3117310c77b">6ca8c55c4f3b7300bac5f3117310c77c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-23 15:09:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

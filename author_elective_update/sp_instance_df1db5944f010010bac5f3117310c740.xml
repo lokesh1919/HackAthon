@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>9</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">c57081944f3b7300bac5f3117310c7fb</sp_column>
+        <sp_widget display_value="Filter Breadcrumbs">339a5c41d7201200b0b044580e61030d</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>160031518</sys_created_by>
+        <sys_created_on>2019-11-07 07:46:21</sys_created_on>
+        <sys_id>df1db5944f010010bac5f3117310c740</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_update_name>sp_instance_df1db5944f010010bac5f3117310c740</sys_update_name>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-11-07 07:46:21</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=df1db5944f010010bac5f3117310c740"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NoDue">5df4a101db4333002aea1fc768961924</application>
+        <file_path/>
+        <instance_id>cf167e4fdbb8d7c88264f70fbf9619b9</instance_id>
+        <instance_name>dev53182</instance_name>
+        <name>sp_instance_df1db5944f010010bac5f3117310c740</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>9</order><roles/><short_description/><size>md</size><sp_column display_value="1">c57081944f3b7300bac5f3117310c7fb</sp_column><sp_widget display_value="Filter Breadcrumbs">339a5c41d7201200b0b044580e61030d</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>160031518</sys_created_by><sys_created_on>2019-11-07 07:46:21</sys_created_on><sys_id>df1db5944f010010bac5f3117310c740</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package><sys_policy/><sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope><sys_update_name>sp_instance_df1db5944f010010bac5f3117310c740</sys_update_name><sys_updated_by>160031518</sys_updated_by><sys_updated_on>2019-11-07 07:46:21</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=df1db5944f010010bac5f3117310c740"/></record_update>]]></payload>
+        <payload_hash>1344982948</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>73bdf8dc4ff77300bac5f3117310c76b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>160031518</sys_created_by>
+        <sys_created_on>2019-11-07 07:46:21</sys_created_on>
+        <sys_id>db1db5944f010010bac5f3117310c742</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e44d41ab80000001</sys_recorded_at>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-11-07 07:46:21</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>171db594c0010010fa75aace39325e42</update_guid>
+        <update_guid_history>171db594c0010010fa75aace39325e42:1344982948</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4c3db5d44f010010bac5f3117310c7f1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>160031518</sys_created_by>
+        <sys_created_on>2019-11-07 07:46:40</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>43c2f98aa83f430896d639aa0ddde3c4</sys_id>
+        <sys_metadata>df1db5944f010010bac5f3117310c740</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_scope_delete display_value="">0b77f8f2896c47da95a17955855babc9</sys_scope_delete>
+        <sys_update_name>sp_instance_df1db5944f010010bac5f3117310c740</sys_update_name>
+        <sys_update_version display_value="sp_instance_df1db5944f010010bac5f3117310c740">db1db5944f010010bac5f3117310c742</sys_update_version>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-11-07 07:46:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

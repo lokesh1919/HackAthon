@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category/>
+        <connect_queue/>
+        <description>Issue of No Due Certificate</description>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.10",
+  "goals": {
+    "ebf05b7789024c15851ebd82a6b51e27": {
+      "id": "ebf05b7789024c15851ebd82a6b51e27",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "906cd0b340a64944ab9cec3d4aae5aa6": {
+          "id": "906cd0b340a64944ab9cec3d4aae5aa6",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": "Failte! I'm you're friendly chat bot. I'm afraid and I can't say much Irish but I can directly you to the what you're looking for...",
+            "mode": "simple"
+          }
+        },
+        "a0970b22cffb46faaa796b5a94df754a": {
+          "id": "a0970b22cffb46faaa796b5a94df754a",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "22d4ce59b8814d95a6d624ced81fb111",
+          "edgeType": "Edge",
+          "source": "906cd0b340a64944ab9cec3d4aae5aa6",
+          "target": "a0970b22cffb46faaa796b5a94df754a",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "3bf63dc714ac4d91a3562e9f45a965a1": {
+      "id": "3bf63dc714ac4d91a3562e9f45a965a1",
+      "name": "LiveAgent_application",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Certificate Issue,No Due</key_phrases>
+        <live_agent>false</live_agent>
+        <name>Certificate Issue</name>
+        <nlu_intent/>
+        <nlu_model/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-15 07:49:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>b951ef344f6c8010bac5f3117310c780</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Certificate Issue</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_update_name>sys_cb_topic_b951ef344f6c8010bac5f3117310c780</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-15 08:14:26</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=b951ef344f6c8010bac5f3117310c780"/>
+</record_update>

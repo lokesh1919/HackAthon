@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="DELETE">
+        <active>true</active>
+        <color>default</color>
+        <condition>gs.getUser().hasRole("x_386572_nodue.nofeedue_user");</condition>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph/>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Knowledge</label>
+        <order>100</order>
+        <record_script/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
+        <sp_rectangle_menu display_value="Header_ci">d9ce85f34f200010bac5f3117310c780</sp_rectangle_menu>
+        <sp_rectangle_menu_item/>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-24 04:52:30</sys_created_on>
+        <sys_id>74ee81374f200010bac5f3117310c776</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Knowledge</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_74ee81374f200010bac5f3117310c776</sys_update_name>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-10-25 10:15:13</sys_updated_on>
+        <table/>
+        <type>page</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=74ee81374f200010bac5f3117310c776"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NoDue">5df4a101db4333002aea1fc768961924</application>
+        <file_path/>
+        <instance_id>cf167e4fdbb8d7c88264f70fbf9619b9</instance_id>
+        <instance_name>dev53182</instance_name>
+        <name>sp_rectangle_menu_item_74ee81374f200010bac5f3117310c776</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item"><sp_rectangle_menu_item action="INSERT_OR_UPDATE"><active>true</active><color>default</color><condition>gs.getUser().hasRole("x_386572_nodue.nofeedue_user");</condition><display_1/><display_2/><display_date/><filter/><glyph/><hint/><kb_article/><kb_category/><kb_topic/><label>Knowledge</label><order>100</order><record_script/><sc_cat_item/><sc_category/><short_description/><sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page><sp_rectangle_menu display_value="Header_ci">d9ce85f34f200010bac5f3117310c780</sp_rectangle_menu><sp_rectangle_menu_item/><sys_class_name>sp_rectangle_menu_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-10-24 04:52:30</sys_created_on><sys_id>74ee81374f200010bac5f3117310c776</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Knowledge</sys_name><sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package><sys_policy/><sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope><sys_update_name>sp_rectangle_menu_item_74ee81374f200010bac5f3117310c776</sys_update_name><sys_updated_by>160031518</sys_updated_by><sys_updated_on>2019-10-25 10:15:13</sys_updated_on><table/><type>page</type><url/><url_target/></sp_rectangle_menu_item><sys_translated_text action="delete_multiple" query="documentkey=74ee81374f200010bac5f3117310c776"/></record_update>]]></payload>
+        <payload_hash>-1894897714</payload_hash>
+        <record_name>Knowledge</record_name>
+        <reverted_from/>
+        <source>73bdf8dc4ff77300bac5f3117310c76b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>160031518</sys_created_by>
+        <sys_created_on>2019-10-25 10:15:13</sys_created_on>
+        <sys_id>8982eb484fb04010bac5f3117310c771</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e0269ba340000001</sys_recorded_at>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-10-25 10:15:13</sys_updated_on>
+        <type>Menu Item</type>
+        <update_guid>8182eb4888b04010fa8eed4d312e4571</update_guid>
+        <update_guid_history>8182eb4888b04010fa8eed4d312e4571:-1894897714,611e87ffe2640010dde6e774b488392b:2000585640,f51ac3ff21640010504481ac3e92e242:-920452268,8c1f0537a32000103555be9b366c9e8d:1332879781</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Knowledge">4a16fb504f300010bac5f3117310c7f7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>160031518</sys_created_by>
+        <sys_created_on>2019-10-26 06:19:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_rectangle_menu_item">sp_rectangle_menu_item</sys_db_object>
+        <sys_id>2b57087ef7e1483ebb4412ddd31f8e79</sys_id>
+        <sys_metadata>74ee81374f200010bac5f3117310c776</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowledge</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_scope_delete display_value="">0b77f8f2896c47da95a17955855babc9</sys_scope_delete>
+        <sys_update_name>sp_rectangle_menu_item_74ee81374f200010bac5f3117310c776</sys_update_name>
+        <sys_update_version display_value="sp_rectangle_menu_item_74ee81374f200010bac5f3117310c776">8982eb484fb04010bac5f3117310c771</sys_update_version>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-10-26 06:19:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

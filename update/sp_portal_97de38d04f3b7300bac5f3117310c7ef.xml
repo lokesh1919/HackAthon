@@ -27,28 +27,29 @@ $text-muted: rgba(0, 30, 32, .65);</css_variables>
         <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
         <login_page display_value="login_ci">b22049904f3b7300bac5f3117310c791</login_page>
         <logo>8a4318744f333300bac5f3117310c79b</logo>
-        <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
+        <notfound_page display_value="404_ci">7d95265a4f700010bac5f3117310c77f</notfound_page>
         <quick_start_config/>
         <sc_catalog/>
         <sc_catalog_page/>
         <sc_category_page/>
         <sp_chat_queue/>
-        <sp_rectangle_menu display_value="HR Header">bde232209f22120047a2d126c42e70b2</sp_rectangle_menu>
+        <sp_rectangle_menu/>
         <sqanda_knowledge_base/>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-06 00:01:13</sys_created_on>
         <sys_id>97de38d04f3b7300bac5f3117310c7ef</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Certificate Issue</sys_name>
         <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
         <sys_policy/>
         <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
         <sys_update_name>sp_portal_97de38d04f3b7300bac5f3117310c7ef</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-07 10:02:27</sys_updated_on>
-        <theme display_value="K18hr">a309bc6113da130006ee5aff3244b028</theme>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-11-10 17:24:02</sys_updated_on>
+        <theme display_value="CAB Workbench - Default">49d3c5809f231200b18a7feea57fcf9b</theme>
         <title>Certificate Issue</title>
+        <ts_index_group display_value="portal_index_group">2c3e7d1513c93300e618bfd63244b0d7</ts_index_group>
         <url_suffix>ci</url_suffix>
     </sp_portal>
     <sys_translated_text action="delete_multiple" query="documentkey=97de38d04f3b7300bac5f3117310c7ef"/>
@@ -58,6 +59,7 @@ $text-muted: rgba(0, 30, 32, .65);</css_variables>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>logo</file_name>
+        <hash/>
         <image_height>200</image_height>
         <image_width>200</image_width>
         <size_bytes>6390</size_bytes>
