@@ -31,7 +31,7 @@
         <script><![CDATA[function exportPDF() { 
  var sysparm_table = g_form.getTableName(); 
  var sysparm_sys_id = g_form.getUniqueValue().toString(); 
- var a='https://dev59753.service-now.com/';
+ var a='https://dev53182.service-now.com/';
  var url = a+sysparm_table + '.do?PDF&sys_id=' + sysparm_sys_id; 
  g_navigation.openPopup(url);
 }]]></script>
@@ -45,15 +45,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fe34f1c9db8333002aea1fc7689619c0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>EXPORT PDF</sys_name>
         <sys_overrides/>
         <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
         <sys_policy/>
         <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
         <sys_update_name>sys_ui_action_fe34f1c9db8333002aea1fc7689619c0</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-02 05:08:19</sys_updated_on>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-11-16 11:59:34</sys_updated_on>
         <table>x_386572_nodue_nofeedue</table>
         <ui11_compatible>false</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
