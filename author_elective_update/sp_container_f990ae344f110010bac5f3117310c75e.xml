@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Request Redirect ci - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="request_redirect_ci">3990e6f04f110010bac5f3117310c7cf</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>160031518</sys_created_by>
+        <sys_created_on>2019-11-21 09:54:02</sys_created_on>
+        <sys_id>f990ae344f110010bac5f3117310c75e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Request Redirect ci - Container 2</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_update_name>sp_container_f990ae344f110010bac5f3117310c75e</sys_update_name>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-11-21 09:54:18</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NoDue">5df4a101db4333002aea1fc768961924</application>
+        <file_path/>
+        <instance_id>cf167e4fdbb8d7c88264f70fbf9619b9</instance_id>
+        <instance_name>dev53182</instance_name>
+        <name>sp_container_f990ae344f110010bac5f3117310c75e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Request Redirect ci - Container 2</name><order>2</order><sp_page display_value="request_redirect_ci">3990e6f04f110010bac5f3117310c7cf</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>160031518</sys_created_by><sys_created_on>2019-11-21 09:54:02</sys_created_on><sys_id>f990ae344f110010bac5f3117310c75e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Request Redirect ci - Container 2</sys_name><sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package><sys_policy/><sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope><sys_update_name>sp_container_f990ae344f110010bac5f3117310c75e</sys_update_name><sys_updated_by>160031518</sys_updated_by><sys_updated_on>2019-11-21 09:54:18</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>73028627</payload_hash>
+        <record_name>Request Redirect ci - Container 2</record_name>
+        <reverted_from/>
+        <source>73bdf8dc4ff77300bac5f3117310c76b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>160031518</sys_created_by>
+        <sys_created_on>2019-11-21 09:54:18</sys_created_on>
+        <sys_id>02a0ea344f110010bac5f3117310c722</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e8d62478f0000001</sys_recorded_at>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-11-21 09:54:18</sys_updated_on>
+        <type>Container</type>
+        <update_guid>39a0ea34cc110010c041356773a4e321</update_guid>
+        <update_guid_history>39a0ea34cc110010c041356773a4e321:73028627,3590ae34971100105bb81e0472816560:1368296050</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Request Redirect ci - Container 2">d3a066344f110010bac5f3117310c7c0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>160031518</sys_created_by>
+        <sys_created_on>2019-11-21 09:54:24</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>4a042f543d714a2086cc32af2b2d1504</sys_id>
+        <sys_metadata>f990ae344f110010bac5f3117310c75e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Redirect ci - Container 2</sys_name>
+        <sys_package display_value="NoDue" source="x_386572_nodue">5df4a101db4333002aea1fc768961924</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NoDue">5df4a101db4333002aea1fc768961924</sys_scope>
+        <sys_scope_delete display_value="">0b77f8f2896c47da95a17955855babc9</sys_scope_delete>
+        <sys_update_name>sp_container_f990ae344f110010bac5f3117310c75e</sys_update_name>
+        <sys_update_version display_value="sp_container_f990ae344f110010bac5f3117310c75e">02a0ea344f110010bac5f3117310c722</sys_update_version>
+        <sys_updated_by>160031518</sys_updated_by>
+        <sys_updated_on>2019-11-21 09:54:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
